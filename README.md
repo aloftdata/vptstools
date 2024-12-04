@@ -3,7 +3,7 @@
 <!-- badges: start -->
 [![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
 [![PyPI-Server](https://img.shields.io/pypi/v/vptstools.svg)](https://pypi.org/project/vptstools/)
-[![.github/workflows/release.yml](https://github.com/enram/vptstools/actions/workflows/release.yml/badge.svg)](https://github.com/enram/vptstools/actions/workflows/release.yml)
+[![.github/workflows/release.yml](https://github.com/aloftdata/vptstools/actions/workflows/release.yml/badge.svg)](https://github.com/aloftdata/vptstools/actions/workflows/release.yml)
 [![repo status](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13959705.svg)](https://doi.org/10.5281/zenodo.13959705)
 <!-- badges: end -->

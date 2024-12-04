@@ -1,3 +1,3 @@
 # Changelog
 
-See <https://github.com/enram/vptstools/releases>.
+See <https://github.com/aloftdata/vptstools/releases>.

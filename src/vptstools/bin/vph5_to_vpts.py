@@ -65,7 +65,7 @@ def cli(modified_days_ago, path_s3_folder=None):
     :py:mod:`vpts.bin.transfer_baltrad` CLI routine). Using an
     `s3 inventory bucket <https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-inventory.html>`_, check which
     HDF5 files were recently added and convert those files from ODIM bird profile to the
-    `VPTS CSV format <https://github.com/enram/vpts-csv>`_. Finally, upload the generated daily/monthly VPTS files to S3.
+    `VPTS CSV format <https://github.com/aloftdata/vpts-csv>`_. Finally, upload the generated daily/monthly VPTS files to S3.
 
     When using the `path_s3_folder` option, the modified date is not used, but a recursive search within the given s3
     path is applied to define the daily/monthly files to recreate.

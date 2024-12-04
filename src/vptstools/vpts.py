@@ -302,7 +302,7 @@ def validate_vpts(df, schema_version="v1.0"):
     df : pandas.DataFrame
         DataFrame as created by the vp or vpts functions
     schema_version : str, v1.0,...
-        Version according to a release tag of https://github.com/enram/vpts-csv/tags
+        Version according to a release tag of https://github.com/aloftdata/vpts-csv/tags
 
     Returns
     -------
@@ -325,7 +325,7 @@ def _write_resource_descriptor(vpts_file_path: Path, schema_version="v1.0"):
     vpts_file_path : pathlib.Path
         File path of the resource (VPTS file) written to disk
     schema_version :
-        Version according to a release tag of https://github.com/enram/vpts-csv/tags
+        Version according to a release tag of https://github.com/aloftdata/vpts-csv/tags
     """
     content = {
         "name": "vpts",
@@ -334,7 +334,7 @@ def _write_resource_descriptor(vpts_file_path: Path, schema_version="v1.0"):
         "mediatype": "text/csv",
         "encoding": CSV_ENCODING,
         "dialect": {"delimiter": CSV_FIELD_DELIMITER},
-        "schema": f"https://raw.githubusercontent.com/enram/vpts-csv/"
+        "schema": f"https://raw.githubusercontent.com/aloftdata/vpts-csv/"
         f"{schema_version}/vpts-csv-table-schema.json",
     }
     vpts_file_path.parent.mkdir(parents=True, exist_ok=True)

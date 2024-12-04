@@ -25,8 +25,8 @@ authors:
     email: peter.desmet@inbo.be
     affiliation: Research Institute for Nature and Forest (INBO)
     orcid: https://orcid.org/0000-0002-8442-8025
-repository-code: https://github.com/enram/vptstools
-url: https://enram.github.io/vptstools/
+repository-code: https://github.com/aloftdata/vptstools
+url: https://aloftdata.github.io/vptstools/
 date-released: '2024-10-22'
 keywords:
 - data transformation

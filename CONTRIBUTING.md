@@ -223,7 +223,7 @@ Github Actions is used to automatic push releases to pypi by the publish step in
 - `git push origin master`
 - Add git tags: `git tag vX.X.X` 
 - Push the git tags: `git push --tags`
-- On the [release page](https://github.com/enram/vptstools/releases) draft a new release using the latest git tag
+- On the [release page](https://github.com/aloftdata/vptstools/releases) draft a new release using the latest git tag
 - Copy past the changes from the changelog in the dialog and publish release
 - Check if Github Actions runs the deployment of docs and pypi
 
@@ -280,5 +280,5 @@ module are required:
 [virtualenv]: https://docs.python.org/3/library/venv.html
 
 
-[repository]: https://github.com/enram/vptstools
-[issue tracker]: https://github.com/enram/vptstools/issues
+[repository]: https://github.com/aloftdata/vptstools
+[issue tracker]: https://github.com/aloftdata/vptstools/issues
