@@ -5,14 +5,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>vptstools.vpts &mdash; vptstools 0.4.0a2.post1.dev6+g87728e4 documentation</title>
+  <title>vptstools.vpts &mdash; vptstools 0.4.0.post1.dev1+g2841941 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
 
   
       <script src="../../_static/jquery.js?v=5d32c60e"></script>
       <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../../_static/documentation_options.js?v=44617707"></script>
+      <script src="../../_static/documentation_options.js?v=ffb6f3fa"></script>
       <script src="../../_static/doctools.js?v=9bcbadda"></script>
       <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/js/theme.js"></script>
@@ -395,7 +395,7 @@
 <span class="sd">    df : pandas.DataFrame</span>
 <span class="sd">        DataFrame as created by the vp or vpts functions</span>
 <span class="sd">    schema_version : str, v1.0,...</span>
-<span class="sd">        Version according to a release tag of https://github.com/enram/vpts-csv/tags</span>
+<span class="sd">        Version according to a release tag of https://github.com/aloftdata/vpts-csv/tags</span>
 
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
@@ -419,7 +419,7 @@
 <span class="sd">    vpts_file_path : pathlib.Path</span>
 <span class="sd">        File path of the resource (VPTS file) written to disk</span>
 <span class="sd">    schema_version :</span>
-<span class="sd">        Version according to a release tag of https://github.com/enram/vpts-csv/tags</span>
+<span class="sd">        Version according to a release tag of https://github.com/aloftdata/vpts-csv/tags</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">content</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;vpts&quot;</span><span class="p">,</span>
@@ -428,7 +428,7 @@
         <span class="s2">&quot;mediatype&quot;</span><span class="p">:</span> <span class="s2">&quot;text/csv&quot;</span><span class="p">,</span>
         <span class="s2">&quot;encoding&quot;</span><span class="p">:</span> <span class="n">CSV_ENCODING</span><span class="p">,</span>
         <span class="s2">&quot;dialect&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;delimiter&quot;</span><span class="p">:</span> <span class="n">CSV_FIELD_DELIMITER</span><span class="p">},</span>
-        <span class="s2">&quot;schema&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;https://raw.githubusercontent.com/enram/vpts-csv/&quot;</span>
+        <span class="s2">&quot;schema&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;https://raw.githubusercontent.com/aloftdata/vpts-csv/&quot;</span>
         <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">schema_version</span><span class="si">}</span><span class="s2">/vpts-csv-table-schema.json&quot;</span><span class="p">,</span>
     <span class="p">}</span>
     <span class="n">vpts_file_path</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>

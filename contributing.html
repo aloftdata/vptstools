@@ -6,14 +6,14 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contributing &mdash; vptstools 0.4.0a2.post1.dev6+g87728e4 documentation</title>
+  <title>Contributing &mdash; vptstools 0.4.0.post1.dev1+g2841941 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=44617707"></script>
+      <script src="_static/documentation_options.js?v=ffb6f3fa"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -100,7 +100,7 @@ considerate, reasonable, and respectful</strong>. When in doubt,
 <a class="reference external" href="https://www.python.org/psf/conduct/">Python Software Foundation’s Code of Conduct</a> is a good reference in terms of behavior guidelines.</p>
 <section id="issue-reports">
 <h2>Issue Reports<a class="headerlink" href="#issue-reports" title="Link to this heading"></a></h2>
-<p>If you experience bugs or general issues with <code class="docutils literal notranslate"><span class="pre">vptstools</span></code>, please have a look on the <a class="reference external" href="https://github.com/enram/vptstools/issues">issue tracker</a>. If you don’t see anything useful there, please feel free to fire an issue report.</p>
+<p>If you experience bugs or general issues with <code class="docutils literal notranslate"><span class="pre">vptstools</span></code>, please have a look on the <a class="reference external" href="https://github.com/aloftdata/vptstools/issues">issue tracker</a>. If you don’t see anything useful there, please feel free to fire an issue report.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Please don’t forget to include the closed issues in your search.
@@ -118,7 +118,7 @@ Sometimes a solution was already reported, and the problem is considered <strong
 <p>Please notice that the <a class="reference external" href="https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository">GitHub web interface</a> provides a quick way of propose changes in <code class="docutils literal notranslate"><span class="pre">vptstools</span></code>’s files. While this mechanism can
 be tricky for normal code contributions, it works perfectly fine for contributing to the docs, and can be quite handy.</p>
 <p>If you are interested in trying this method out, please navigate to
-the <code class="docutils literal notranslate"><span class="pre">docs</span></code> folder in the source <a class="reference external" href="https://github.com/enram/vptstools">repository</a>, find which file you
+the <code class="docutils literal notranslate"><span class="pre">docs</span></code> folder in the source <a class="reference external" href="https://github.com/aloftdata/vptstools">repository</a>, find which file you
 would like to propose changes and click in the little pencil icon at the top, to open <a class="reference external" href="https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository">GitHub’s code editor</a>. Once you finish editing the file, please write a message in the form at the bottom of the page describing which changes have you made and what are the motivations behind them and submit your proposal.</p>
 </div>
 <p>When working on documentation changes in your local machine, you can
@@ -137,13 +137,13 @@ compile them using <a class="reference external" href="https://tox.readthedocs.i
 <p>The code is used both as a library to handle VPTS files (hdf5, csv,…) as well as the cli functionality to run the data processing services (conversion of files, updates of the Bucket,…).</p>
 <section id="submit-an-issue">
 <h3>Submit an issue<a class="headerlink" href="#submit-an-issue" title="Link to this heading"></a></h3>
-<p>Before you work on any non-trivial code contribution it’s best to first create a report in the <a class="reference external" href="https://github.com/enram/vptstools/issues">issue tracker</a> to start a discussion on the subject. This often provides additional considerations and avoids unnecessary work.</p>
+<p>Before you work on any non-trivial code contribution it’s best to first create a report in the <a class="reference external" href="https://github.com/aloftdata/vptstools/issues">issue tracker</a> to start a discussion on the subject. This often provides additional considerations and avoids unnecessary work.</p>
 </section>
 <section id="setup-an-environment">
 <h3>Setup an environment<a class="headerlink" href="#setup-an-environment" title="Link to this heading"></a></h3>
 <ol class="arabic">
 <li><p>Create an user account on GitHub if you do not already have one.</p></li>
-<li><p>Fork the project <a class="reference external" href="https://github.com/enram/vptstools">repository</a>: click on the <em>Fork</em> button near the top of the page. This creates a copy of the code under your account on GitHub.</p></li>
+<li><p>Fork the project <a class="reference external" href="https://github.com/aloftdata/vptstools">repository</a>: click on the <em>Fork</em> button near the top of the page. This creates a copy of the code under your account on GitHub.</p></li>
 <li><p>Clone this copy to your local disk:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">YourLogin</span><span class="o">/</span><span class="n">vptstools</span><span class="o">.</span><span class="n">git</span>
 <span class="n">cd</span> <span class="n">vptstools</span>
@@ -232,7 +232,7 @@ from the continuous integration (CI) system or any required fixes.</p>
 <p>The following tips can be used when facing problems to build or test the
 package:</p>
 <ol class="arabic">
-<li><p>Make sure to fetch all the tags from the upstream <a class="reference external" href="https://github.com/enram/vptstools">repository</a>.
+<li><p>Make sure to fetch all the tags from the upstream <a class="reference external" href="https://github.com/aloftdata/vptstools">repository</a>.
 The command <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">describe</span> <span class="pre">--abbrev=0</span> <span class="pre">--tags</span></code> should return the version you
 are expecting. If you are trying to run CI scripts in a fork repository,
 make sure to push all the tags.
@@ -285,7 +285,7 @@ You can also setup breakpoints manually instead of using the <code class="docuti
 <li><p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">master</span></code></p></li>
 <li><p>Add git tags: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">tag</span> <span class="pre">vX.X.X</span></code></p></li>
 <li><p>Push the git tags: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">--tags</span></code></p></li>
-<li><p>On the <a class="reference external" href="https://github.com/enram/vptstools/releases">release page</a> draft a new release using the latest git tag</p></li>
+<li><p>On the <a class="reference external" href="https://github.com/aloftdata/vptstools/releases">release page</a> draft a new release using the latest git tag</p></li>
 <li><p>Copy past the changes from the changelog in the dialog and publish release</p></li>
 <li><p>Check if Github Actions runs the deployment of docs and pypi</p></li>
 </ul>
